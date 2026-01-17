@@ -31,7 +31,16 @@ $ pip install --upgrade google-api-python-client google-auth-httplib2 google-aut
   ```
   TARGET_FOLDER_ID = '1vN5kTW8FX8F_cOl6BjqmuFbbRhUeCR9a'
   ```
-  
+4. (optional) Windows Task Scheduler
+
+   - create Basic Task, enter Name
+   - choose Trigger
+   - choose Action (Start a Program)
+   - Program/script: wscript.exe
+   - Add arguments: "C:\Users\nikol\Desktop\Python Projects\Automated Google Drive Backup\dailyGoogleDriveBackup.vbs"
+   - Start in: C:\Users\nikol\Desktop\Python Projects\Automated Google Drive Backup
+   - Finish
+
 ## APIs / Libraries Used
 
 - Google Drive API

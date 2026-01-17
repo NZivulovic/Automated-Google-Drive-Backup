@@ -13,10 +13,10 @@ $ pip install --upgrade google-api-python-client google-auth-httplib2 google-aut
 ## How To Use 
 1. Read Quickstart:
   - https://developers.google.com/workspace/drive/labels/quickstart/python
-2. File to Edit:
+2. Files to Edit:
   - [main.py](main.py)
 
- **<h3>3. edit main.py</h3>** 
+  3. Edit main.py
   - Own Folders / Files you want to Compile to 7zip.
   ###
   ```
